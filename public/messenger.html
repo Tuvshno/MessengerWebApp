@@ -15,20 +15,25 @@
     <div class="container-md">
         <div class="row">
             <div class="col" id="messengerHeader">
-                Name
+                <h1>Name</h1> 
             </div>
         </div>
         <div class="row">
             <div class="col-" id="messageArea">
-                Message
+                <div id="isTypingArea"></div>
+                <div id="messages">
+                    <ul id="message">
+                    
+                    </ul>
+                </div>
             </div>
         </div>
         <div class="row" id = "sendingArea">
             <div class="col-8" id="inputArea">
-                InputArea
+                <input id="input" class="form-control" type="text" placeholder="Enter Message">
             </div>
-            <div class="col-sm-4" id="buttonArea">
-
+            <div class="col-sm" id="buttonArea">
+                <button id="send-button" type="button" class="btn btn-primary">Send</button>
             </div>
         </div>
     </div>
