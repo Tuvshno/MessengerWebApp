@@ -1,0 +1,15 @@
+{
+  "name": "messengerwebapp",
+  "version": "1.0.0",
+  "description": "A messenger app using socket.io and express",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "MessengerWebApp"
+  },
+  "author": "Tuvshinbayar Otgonbayar",
+  "license": "ISC"
+}
